@@ -1,0 +1,205 @@
+body{font-family: 'PT Sans', sans-serif;}
+.dfgdfg{
+
+	display: none;
+}
+
+ .catalog-filter-tree > h2 {
+  border-bottom: solid 1px #f3f2ed !important;
+    font-size: 100%;
+    cursor: pointer;
+    display: block;
+    float: none !important;
+    width: 100% !important;
+	text-align:left;
+    padding: 0.5em;
+    margin: 0 0 1em 0;
+	padding:15px 19px !important;
+}
+
+.aimeos .catalog-filter  .catalog-filter-attribute > h2, .catalog-filter-supplier > h2 {
+   
+    text-align: center;
+    font-size: 100%;
+    cursor: pointer;
+    width: 100% !important;
+    float: none !important;
+    display: block;
+    padding: 0.5em;
+    margin: 0 0 1em 0;
+	text-align: left !important;
+}
+
+.catalog-filter-attribute > h2, .catalog-filter-supplier > h2 {
+    border-bottom: solid 1px #f3f2ed !important;
+    text-align: center;
+    font-size: 100%;
+    cursor: pointer;
+width: 100% !important;
+text-align:left !important;
+padding:15px 19px !important;}
+
+.aimeos .catalog-filter .catalog-filter-attribute > h2, .catalog-filter-supplier > h2 {
+     border-bottom: solid 1px #f3f2ed !important;
+    text-align: center;
+    font-size: 100%;
+    cursor: pointer;
+    width: 33.33%;
+    float: none !important;
+    display: block;
+    padding: 0.5em;
+    margin: 0 0 1em 0;
+}
+
+.aimeos .product .text-list h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 100%;
+    overflow: hidden;
+    height: 2em;
+    margin: 0;
+    margin-bottom: 1rem;
+    color: #282d3b;
+ 
+    font-size: 14px !important;
+    letter-spacing: 0.005em;
+    font-weight: 600;
+}
+.catalog-list .product {
+border: 1px solid #f7f4f4 !important;}
+
+.catalog-filter-attribute .attribute-lists .attr-list, .catalog-filter-supplier .supplier-lists .attr-list {
+   
+    height: auto !important;
+}
+
+  .aimeos .price-item:first-of-type {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    color: #544e4e;
+}
+
+.aimeos .product .text-list .text-item {
+    overflow: hidden;
+    height: 2em;
+    padding: 0px 20px;
+}
+
+.aimeos .list-items {
+    text-align: center;
+    font-size: 90%;
+    padding: 0;
+    background: #f7f7f7;
+}
+.catalog-filter-tree  h2:before {
+   content: "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #d2cfcf;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+  
+    right: 24px;
+}
+.catalog-filter-supplier {
+    position: relative;
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.catalog-filter-supplier h2:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #d2cfcf;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    right: 10px;
+}
+.catalog-filter-attribute h2:before {
+  content: "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #d2cfcf;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+   
+    right: 24px;
+}
+
+.third{background:#544e4e;}
+.navbar-nav>li>a {
+    
+    line-height: 18px;
+}
+.one .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #d3e0e9;
+border-bottom: 1px solid #f1f0f0}
+
+.one .navbar-nav>li>a {
+    line-height: 0;
+   
+    width: 100%;
+}
+.third ul li a {
+    background: #544e4e;
+    color: #fff !important;
+}
+.one{background:#f7f7f7;}
+.navbar-brand {
+    float: left;
+padding: 20px 15px;}
+.locale-select ul.select-menu a{    line-height: 50px;}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: #777;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: inherit;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+section.catalog-filter-search {
+    display: none;
+}
+
+.navbar-default {
+    
+    border-color: none !important;
+}
+
+.sidebar_navv{
+    
+    left: 0;
+    /* width: 100%; */
+    background-color: #fff;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    transition: 200ms opacity;
+    border: #e6ebee solid 1px;
+    padding: 0 8px;
+    box-shadow: none;}
+	
+	.sidebar_navv  .section{
+    padding: 18.5px 10px;
+    border-top: #e6ebee solid 1px;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.catalog-list .product{float:center;}
+
